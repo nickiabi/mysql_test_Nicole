@@ -27,8 +27,8 @@ describe("Tests Autor's Table", () => {
   });
 });
 
-describe("Tests Libro's Table", () => {
-  test("Deberia existir una tabla llamada Libro", async () => {
+describe("Tests libro's Table", () => {
+  test("Deberia existir una tabla llamada libro", async () => {
     const tables = await db.getTables();
     expect(tables).toContain("libro");
   });
